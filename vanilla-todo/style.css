@@ -1,0 +1,49 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: hsl(171, 100%, 41%);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-app {
+  width: 18rem;
+  min-height: 21rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5px;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.404);
+  height: 2rem;
+}
+
+.completed .todo-text {
+  text-decoration: line-through;
+}
+
+.views {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.views .button {
+  background-color: #57bafb;
+}
+
+.views .selected {
+  background-color: #209cee;
+}
