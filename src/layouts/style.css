@@ -1,0 +1,18 @@
+:root {
+  --bg: #0e131f;
+  --text: #f8f4f9;
+  --main: #fc7753;
+  --secondary: #9cd08f;
+  --accent: #96031a;
+}
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Roboto Mono", monospace;
+}
+a {
+  color: var(--secondary);
+}
+h1 {
+  color: var(--main);
+}
